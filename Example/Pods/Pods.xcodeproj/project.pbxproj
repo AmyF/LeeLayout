@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DAFB5094E2BAEFEA5DE832B3E7BAC88 /* LayoutManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BC82D0C36F9F375E62A654D75FCBA1 /* LayoutManage.swift */; };
-		14867634CA85EAD6AF3F4FBD37108F46 /* LeeLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8307A3466EFD017D0D3301A3D46A0AFB /* LeeLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14867634CA85EAD6AF3F4FBD37108F46 /* LeeLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65EE3D6CB1AFFC6500AF3E98DF750B /* LeeLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B16C81BAF2E0B9264E6E33ED1A0FB34 /* LayoutManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C095B983FA92BAFF7F4F1766B642D24 /* LayoutManage.swift */; };
 		4618E87DCBD8F0506B7ACF6BAF8CB5FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		745823735D1CD332CFDD0D27C999DD32 /* LeeLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBEDA16892FA789E59A5C9DABD04C3 /* LeeLayout-dummy.m */; };
+		745823735D1CD332CFDD0D27C999DD32 /* LeeLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB9C72693024AB8FF5A46909429185D /* LeeLayout-dummy.m */; };
 		9060CA2E29AC9F513FE12B14208D6C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		911CB18199021F83C63CD3533A2CED92 /* Pods-LeeLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C328D34A6E6A3B8BDD09924AF8F10FDE /* Pods-LeeLayout_Tests-dummy.m */; };
 		A0B8B873E941761A0CAE5039C9503F67 /* Pods-LeeLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 491ED4F5CDF13843B848325E16BC2840 /* Pods-LeeLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,38 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01BC82D0C36F9F375E62A654D75FCBA1 /* LayoutManage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutManage.swift; path = LeeLayout/Classes/LayoutManage.swift; sourceTree = "<group>"; };
 		21A9B198D67E166CAA3BBCC536075D5B /* Pods-LeeLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		235BE6F69D21258BCBC98A024DB52912 /* Pods-LeeLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		31DBEDA16892FA789E59A5C9DABD04C3 /* LeeLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeeLayout-dummy.m"; sourceTree = "<group>"; };
-		3F55FB7F49B1E0ACD270DFB673736735 /* LeeLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LeeLayout-Info.plist"; sourceTree = "<group>"; };
+		25CAB6F62BD2A97480F4EE3C427626F3 /* LeeLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeLayout-prefix.pch"; sourceTree = "<group>"; };
+		2AE57A0487C588B5187B7AB42060401B /* LeeLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeeLayout.xcconfig; sourceTree = "<group>"; };
 		491ED4F5CDF13843B848325E16BC2840 /* Pods-LeeLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeeLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4C095B983FA92BAFF7F4F1766B642D24 /* LayoutManage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutManage.swift; path = Classes/LayoutManage.swift; sourceTree = "<group>"; };
 		4EA8835B488FC5E993F8B06B66A22823 /* Pods_LeeLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LeeLayout_Tests.framework; path = "Pods-LeeLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5278A21B7A9A9B35E809182467064AC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		53480BE4A030B8AF9337F7076195E99D /* Pods-LeeLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeeLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		5C50FAF7050FBB07512670F1BB8B8882 /* Pods-LeeLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeLayout_Tests-Info.plist"; sourceTree = "<group>"; };
+		5DC3ACEB6E0F842F4B4CD7DC12C67034 /* LeeLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeeLayout.modulemap; sourceTree = "<group>"; };
 		68064D59E2E9C200C65D1AAD3317D336 /* Pods-LeeLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6905926A6CAD461CCB237ADD9E7098AC /* LeeLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeeLayout.modulemap; sourceTree = "<group>"; };
-		6DDD5F8FB8332965D1964FFF596EE7BC /* LeeLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LeeLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		72A944D8855DDCF8E620FC716AD6F09E /* Pods-LeeLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		72D855BD5246CCB4B57595E0597B1633 /* LeeLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeeLayout.xcconfig; sourceTree = "<group>"; };
-		82E9301C2825E8E769C73B02649F0186 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8307A3466EFD017D0D3301A3D46A0AFB /* LeeLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeLayout-umbrella.h"; sourceTree = "<group>"; };
+		92BD23726AD81249B2D5B43C55513842 /* LeeLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LeeLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A6B5538AB0665D4475DB70F10477ADB /* LeeLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LeeLayout.framework; path = LeeLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5496F98604CD0BFA861F1503F3687CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A6BCC1CE8D4E0EDD41E6B155DA033B68 /* Pods-LeeLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeeLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B13E87B3A4CA68755E59AB4845A4FA08 /* Pods-LeeLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeeLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		B4657F3B3592C4E90546A9B62FCA1738 /* Pods-LeeLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeeLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B53F3C6FB545F90D14915EDE56FE518E /* Pods-LeeLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeeLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B8F7847525E17F53909F30ACC1651268 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BD75FA46B6DFD77685C5FC97C944B0D6 /* Pods_LeeLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LeeLayout_Example.framework; path = "Pods-LeeLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17C5C1B85D35047B4739462035D68E3 /* Pods-LeeLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C328D34A6E6A3B8BDD09924AF8F10FDE /* Pods-LeeLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeeLayout_Tests-dummy.m"; sourceTree = "<group>"; };
 		C84C953235CBDAB3119A965537E78CB6 /* Pods-LeeLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CEA81D6DA34F39CAB0876B6722589340 /* Pods-LeeLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeeLayout_Tests.modulemap"; sourceTree = "<group>"; };
-		DB94ACC5379F765D5534E884A9BAFF21 /* LeeLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeLayout-prefix.pch"; sourceTree = "<group>"; };
+		E1F14A566E981450B22647FA5BD9DCA7 /* LeeLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LeeLayout-Info.plist"; sourceTree = "<group>"; };
 		EC6F0071EFB8C0073025A2F1DF825F0B /* Pods-LeeLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeLayout_Example-Info.plist"; sourceTree = "<group>"; };
+		ED65EE3D6CB1AFFC6500AF3E98DF750B /* LeeLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeLayout-umbrella.h"; sourceTree = "<group>"; };
 		F10E54013439E7DBE7823DB655053403 /* Pods-LeeLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeeLayout_Example.modulemap"; sourceTree = "<group>"; };
+		FFB9C72693024AB8FF5A46909429185D /* LeeLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeeLayout-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,20 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28DAA5D8A06A1791AEEE50214E3DBAAD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6905926A6CAD461CCB237ADD9E7098AC /* LeeLayout.modulemap */,
-				72D855BD5246CCB4B57595E0597B1633 /* LeeLayout.xcconfig */,
-				31DBEDA16892FA789E59A5C9DABD04C3 /* LeeLayout-dummy.m */,
-				3F55FB7F49B1E0ACD270DFB673736735 /* LeeLayout-Info.plist */,
-				DB94ACC5379F765D5534E884A9BAFF21 /* LeeLayout-prefix.pch */,
-				8307A3466EFD017D0D3301A3D46A0AFB /* LeeLayout-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LeeLayout";
-			sourceTree = "<group>";
-		};
 		29FED22FC01B318B37D5AA51E133A0F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,22 +109,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D18674AD3072B27E9FB4AE79B09A929 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6DDD5F8FB8332965D1964FFF596EE7BC /* LeeLayout.podspec */,
-				B8F7847525E17F53909F30ACC1651268 /* LICENSE */,
-				82E9301C2825E8E769C73B02649F0186 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		5AE3F040E8A288A7A0F5E81B31D24AFC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD07E07D5358592B2DC226C356709003 /* LeeLayout */,
+				EAD5081D8D942D7978189F43E11A3A1F /* LeeLayout */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E796388F5BA6418FB28B7A32E9A241A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92BD23726AD81249B2D5B43C55513842 /* LeeLayout.podspec */,
+				5278A21B7A9A9B35E809182467064AC1 /* LICENSE */,
+				A5496F98604CD0BFA861F1503F3687CF /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		78E200F13A3C586F54738C4DF870A3A6 /* Targets Support Files */ = {
@@ -148,6 +134,20 @@
 				EA797756E0E97B6B77798A60189A14B5 /* Pods-LeeLayout_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91396A0C20599EE1873E7AC61DBB231A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DC3ACEB6E0F842F4B4CD7DC12C67034 /* LeeLayout.modulemap */,
+				2AE57A0487C588B5187B7AB42060401B /* LeeLayout.xcconfig */,
+				FFB9C72693024AB8FF5A46909429185D /* LeeLayout-dummy.m */,
+				E1F14A566E981450B22647FA5BD9DCA7 /* LeeLayout-Info.plist */,
+				25CAB6F62BD2A97480F4EE3C427626F3 /* LeeLayout-prefix.pch */,
+				ED65EE3D6CB1AFFC6500AF3E98DF750B /* LeeLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LeeLayout";
 			sourceTree = "<group>";
 		};
 		990924D5CFCBD49BCDB3BAA554811AD2 /* Pods-LeeLayout_Example */ = {
@@ -210,12 +210,12 @@
 			path = "Target Support Files/Pods-LeeLayout_Tests";
 			sourceTree = "<group>";
 		};
-		FD07E07D5358592B2DC226C356709003 /* LeeLayout */ = {
+		EAD5081D8D942D7978189F43E11A3A1F /* LeeLayout */ = {
 			isa = PBXGroup;
 			children = (
-				01BC82D0C36F9F375E62A654D75FCBA1 /* LayoutManage.swift */,
-				2D18674AD3072B27E9FB4AE79B09A929 /* Pod */,
-				28DAA5D8A06A1791AEEE50214E3DBAAD /* Support Files */,
+				4C095B983FA92BAFF7F4F1766B642D24 /* LayoutManage.swift */,
+				5E796388F5BA6418FB28B7A32E9A241A /* Pod */,
+				91396A0C20599EE1873E7AC61DBB231A /* Support Files */,
 			);
 			name = LeeLayout;
 			path = ../..;
@@ -364,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DAFB5094E2BAEFEA5DE832B3E7BAC88 /* LayoutManage.swift in Sources */,
+				2B16C81BAF2E0B9264E6E33ED1A0FB34 /* LayoutManage.swift in Sources */,
 				745823735D1CD332CFDD0D27C999DD32 /* LeeLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,7 +506,7 @@
 		};
 		9DA0BDB2FA2A22C402B85BBC60FB4378 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72D855BD5246CCB4B57595E0597B1633 /* LeeLayout.xcconfig */;
+			baseConfigurationReference = 2AE57A0487C588B5187B7AB42060401B /* LeeLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -634,7 +634,7 @@
 		};
 		C859D4280A4F31E1A915D4C4E66AE71D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72D855BD5246CCB4B57595E0597B1633 /* LeeLayout.xcconfig */;
+			baseConfigurationReference = 2AE57A0487C588B5187B7AB42060401B /* LeeLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
