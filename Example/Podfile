@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LeeLayout_Example' do
+  pod 'LeeLayout', :path => '../'
+
+  target 'LeeLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

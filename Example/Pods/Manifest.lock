@@ -1,0 +1,16 @@
+PODS:
+  - LeeLayout (1.0.0)
+
+DEPENDENCIES:
+  - LeeLayout (from `../`)
+
+EXTERNAL SOURCES:
+  LeeLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeeLayout: 7767e92a0d9c8c6ac5b3117c08b0b154a21dccea
+
+PODFILE CHECKSUM: f08a3eb8416ab91be09615e3180a3866a88440af
+
+COCOAPODS: 1.7.0.rc.2
