@@ -1,9 +1,9 @@
 {
   "name": "LeeLayout",
   "version": "1.0.0",
-  "summary": "autoLayout made easy in iOS/macOS.",
-  "description": "autoLayout made easy in iOS/macOS.",
-  "homepage": "https://github.com/840382477@qq.com/LeeLayout",
+  "summary": "Chained call of AutoLayout",
+  "description": "AutoLayout made easy in iOS/macOS.",
+  "homepage": "https://github.com/AmyF/LeeLayout",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "840382477@qq.com": "840382477@qq.com"
   },
   "source": {
-    "git": "https://github.com/840382477@qq.com/LeeLayout.git",
+    "git": "https://github.com/AmyF/LeeLayout.git",
     "tag": "1.0.0"
   },
   "platforms": {

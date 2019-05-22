@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LeeLayout'
   s.version          = '1.0.0'
-  s.summary          = 'autoLayout made easy in iOS/macOS.'
+  s.summary          = 'Chained call of AutoLayout'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-autoLayout made easy in iOS/macOS.
+AutoLayout made easy in iOS/macOS.
                        DESC
 
-  s.homepage         = 'https://github.com/840382477@qq.com/LeeLayout'
+  s.homepage         = 'https://github.com/AmyF/LeeLayout'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '840382477@qq.com' => '840382477@qq.com' }
-  s.source           = { :git => 'https://github.com/840382477@qq.com/LeeLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AmyF/LeeLayout.git', :tag => s.version.to_s }
+  s.swift-version    = '4.0'
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target  = '10.11'
