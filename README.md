@@ -36,10 +36,6 @@ manager.setEdges().over()
 manager.end()
 ```
 
-## Author
-
-840382477@qq.com, 840382477@qq.com
-
 ## License
 
 LeeLayout is available under the MIT license. See the LICENSE file for more info.
